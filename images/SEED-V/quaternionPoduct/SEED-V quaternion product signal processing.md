@@ -29,3 +29,4 @@ According to above, each primary emotion yields a time behaviour. We include the
 
 ### Happy
 
+![happy](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/HAPPY_quaternionProductSEEDV.pdf)
