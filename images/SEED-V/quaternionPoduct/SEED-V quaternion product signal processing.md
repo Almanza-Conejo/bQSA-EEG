@@ -28,5 +28,7 @@ $$q p = \left( q_1p_1 - q_2^\ast p_2, q_2p_1 + q_1^\ast p_2 \right),$$
 According to above, each primary emotion yields a time behaviour. We include the graphs here
 
 ### Happy
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/HAPPY_quaternionProductSEEDV.svg" alt="drawing" width="2000"/>
 
-![happy](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/HAPPY_quaternionProductSEEDV.pdf)
+## Fear
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/FEAR_quaternionProductSEEDV.svg" alt="drawing" width="2000"/>
