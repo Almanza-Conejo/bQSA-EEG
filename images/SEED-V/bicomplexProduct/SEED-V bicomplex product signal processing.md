@@ -1,4 +1,4 @@
-# SEED-V Bcimplex Product
+# SEED-V Bicomplex Product
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/images/bicomplexProductSEEDVgeneral.svg" alt="drawing" width="2000"/>
 
 ## The quaternion algebra
@@ -21,7 +21,7 @@ Then, we established a new $p$ quaternion form based on the initial $q$ form, as
 
 $$p =  \xi_\varsigma(\eta_1, t_{\omega}) + \xi_\varsigma(\eta_2, t_{\omega})\boldsymbol{i} + \xi_\varsigma(\eta_3, t_{\omega})\boldsymbol{j}  + \xi_\varsigma(\eta_4, t_{\omega})\boldsymbol{k}$$
 
-Finally, the quaternion product is expressed as
+Finally, the bicomplex product is expressed as
 
 $$q p = \left( q_1p_1 - q_2 p_2, q_2p_1 + q_1 p_2 \right),$$
 
