@@ -1,4 +1,4 @@
-# AMIGOS Bicomplex Product
+# AMIGOS Quaternion Product
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/bicomplexProduct/images/bicomplexProductAMIGOSgeneral.svg" alt="drawing" width="2000"/>
 
 ## The quaternion algebra
