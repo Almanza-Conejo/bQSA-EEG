@@ -26,7 +26,7 @@ This GitHub repo includes several parts of our **Feature Signal Processing for E
 | ------   |    -----------   |
 |  SEED-V  |  [Quaternion](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/SEED-V%20quaternion%20product%20signal%20processing.md) |
 |          |  [Bicomplex](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/SEED-V%20bicomplex%20product%20signal%20processing.md)   |
-|  AMIGOS  |  [Quaternion]()  |
+|  AMIGOS  |  [Quaternion](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/quaternionProduct/AMIGOS%20quaternion%20product%20signal%20processing.md)  |
 |          |  [Bicomplex](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/bicomplexProduct/AMIGOS%20bicomplex%20product%20signal%20processing.md)   |
 |   DEAP   |  [Quaternion]()  |
 |          |  [Bicomplex]()   |
