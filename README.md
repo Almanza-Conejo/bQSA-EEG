@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://example.com/">
-    <img src="https://www.ugto.mx/images/escudo-guia-imagen.png" width=88 height=70 alt="linkedin"> <img src="https://github.com/Almanza-Conejo/imagesRepo/blob/main/almanza.png" alt="Almanza-Conejo" width=300 height=70>
+    <img src="https://www.ugto.mx/images/escudo-guia-imagen.png" width=88 height=70 alt="linkedin"> <img src="https://github.com/Almanza-Conejo/imagesRepo/blob/main/almCon.png" alt="Almanza-Conejo" width=300 height=70>
   </a>
   <p align="center">
     <br>
