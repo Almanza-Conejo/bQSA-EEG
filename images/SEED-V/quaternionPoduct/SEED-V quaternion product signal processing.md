@@ -30,5 +30,14 @@ According to above, each primary emotion yields a time behaviour. We include the
 ### Happy
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/HAPPY_quaternionProductSEEDV.svg" alt="drawing" width="2000"/>
 
-## Fear
+### Disgust
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/DISGUST_quaternionProductSEEDV.svg" alt="drawing" width="2000"/>
+
+### Neutral
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/NEUTRAL_quaternionProductSEEDV.svg" alt="drawing" width="2000"/>
+
+### Fear
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/FEAR_quaternionProductSEEDV.svg" alt="drawing" width="2000"/>
+
+### Sad
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/SAD_quaternionProductSEEDV.svg" alt="drawing" width="2000"/>
