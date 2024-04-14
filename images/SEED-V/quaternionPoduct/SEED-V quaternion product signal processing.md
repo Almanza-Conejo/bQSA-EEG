@@ -1,4 +1,5 @@
 # SEED-V Quaternion Product
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/SEED-V%20quaternion%20product%20general.svg" alt="drawing" width="2000"/>
 
 ## The quaternion algebra
 The EEG signal processing using the SEED-V dataset is based on five primary emotions (Happy, Surprise, Neutral, Disgust, and Sad). These five emotions are used to classify a robust classification algorithm companding $25$-ML architectures. Based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971), we found that *FCZ*, *CP4*, *FC5*, and *P1*, are the top four EEG Effective Channels (EC) in this dataset.
