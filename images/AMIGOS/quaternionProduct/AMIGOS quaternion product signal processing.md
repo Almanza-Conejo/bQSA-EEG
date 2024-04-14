@@ -23,7 +23,7 @@ $$p =  \xi_\varsigma(\eta_1, t_{\omega}) + \xi_\varsigma(\eta_2, t_{\omega})\bol
 
 Finally, the quaternion product is expressed as
 
-$$q p = \left( q_1p_1 - q_2 p_2, q_2p_1 + q_1 p_2 \right),$$
+$$q p = \left( q_1p_1 - q_2^\ast p_2, q_2p_1 + q_1^\ast p_2 \right),$$
 
 ## The b-QSA signal processing behaviour
 According to above, each primary emotion yields a time behaviour. We include the graphs here
