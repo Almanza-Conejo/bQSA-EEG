@@ -2,7 +2,9 @@
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/SEED-V%20quaternion%20product%20general.svg" alt="drawing" width="2000"/>
 
 ## The quaternion algebra
-The EEG signal processing using the SEED-V dataset is based on five primary emotions (Happy, Disgust, Neutral, Fear, and Sad). These five emotions are used to classify a robust classification algorithm companding $25$-ML architectures. Based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971), we found that *FCZ*, *CP4*, *FC5*, and *P1*, are the top four EEG Effective Channels (EC) in this dataset.
+The EEG signal processing using the SEED-V dataset is based on five primary emotions (Happy, Disgust, Neutral, Fear, and Sad). These five emotions are used to classify a robust classification algorithm companding $25$-ML architectures. The SEED-V dataset contains a sum of $\Xi_{s} \in \mathbb{R}^{44640 \times t}$ EEG signals, $\lbrace \Xi_{s_i} \in \mathbb{R}^{8928 \times t} \rbrace \in \Xi_{s}$ per emotion stimuli. Besides, using the [Minimum Redundance Maximum Relevance algorithm](https://doi.org/10.1142/S0219720005001004) we achieve a top four EEG Effective Channels (EC) subset based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971). As a result, the top four effective channels for SEED-V db are: *FP1*, *CP1*, *CZ*, and *CB2*. The normalized EC score is shown in the following figure.
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/effectiveChannels/ecSEED.svg" alt="drawing" width="2000"/>
 
 Then, we used these four effective channels to perform a quaternion form based on the *Cayley-Dickson* form, as presented in [Quaternion Fourier Transforms for Signal and Image Processing](10.1002/9781118930908). We take the premise that
 
