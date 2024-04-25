@@ -1,20 +1,24 @@
 # EEG time and wavelet denoised behaviour
 
-This file includes the EEG time and Wavelet Denoised (WD) behaviour for the SEED-V dataset. This dataset includes five primary emotions: Happy, Disgust, Neutral, Fear, and Sad. Time behaviour is represented as $\xi\left(t\right)$. Moreover, the $\xi_{\psi}\left(t\right)$ represents the WD-EEG.
+After the Wavelet Denoised (WD), we perform a scaling function to modify the magnitude of WD-EEG. The entry EEG signal is processed following a min-max criteria as:
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/timeBehaviour/images/SEED-V%20time%20general.svg" alt="drawing" width="2000"/>
+$$\xi_\varsigma(t) = \xi_\psi(t) - \frac{\underset{}{\min}\left(\xi_\psi(t)\right)}{\underset{}{\max}\left(\xi_\psi(t)\right) - \underset{}{\min}\left(\xi_\psi(t)\right)},$$
+
+where $\xi_\psi(t)$ represents the WD-EEG and $\xi_\varsigma(t)$ the scaled EEG. The emotions time behaviour is represented in the following figure
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/SEED-V%20scaled%20general.svg" alt="drawing" width="2000"/>
 
 ## Happy
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/timeBehaviour/images/HAPPY_timeSEEDV.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/HAPPY_scaledSEEDV.svg" alt="drawing" width="2000"/>
 
 ## Disgust
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/timeBehaviour/images/DISGUST_timeSEEDV.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/Disgust_scaledSEEDV.svg" alt="drawing" width="2000"/>
 
 ## Neutral
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/timeBehaviour/images/NEUTRAL_timeSEEDV.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/NEUTRAL_scaledSEEDV.svg" alt="drawing" width="2000"/>
 
 ## Fear
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/timeBehaviour/images/FEAR_timeSEEDV.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/FEAR_scaledSEEDV.svg" alt="drawing" width="2000"/>
 
 ## Sad
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/timeBehaviour/images/SAD_timeSEEDV.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/SAD_scaledSEEDV.svg" alt="drawing" width="2000"/>
