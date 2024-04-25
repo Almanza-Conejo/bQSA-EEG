@@ -21,6 +21,13 @@ $$\xi_\varsigma(t) = \xi_\psi(t) - \frac{\underset{}{\min}\left(\xi_\psi(t)\righ
 
 yielding the following scaled EEG time behaviour, represented as $\xi_{\zeta}\left(t\right)$.
 
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/SEED-V%20scaled%20general.svg" alt="drawing" width="2000"/>
+
+For high-resolution images, please visit our [SEED-V scaled behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/SEED-V%20b-QSA%20scaled%20processing.md) section.
+For details, please go to our manuscript PDF.
+
+## Effective channels
+
 
 
 ## The quaternion algebra
