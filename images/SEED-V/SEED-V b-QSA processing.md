@@ -66,10 +66,21 @@ $$\boldsymbol{q} \equiv
         q \odot p &= \left( q_1p_1 - q_2 p_2, q_2p_1 + q_1 p_2 \right), 
     \end{cases}$$
 
-## The $q p$ quaternion product signal behaviour
+## The $q p$ quaternion product
+### $qp$ signal behaviour
 According to above, each primary emotion yields a b-QSA time behaviour. We include the time-domain figures here
 
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/SEED-V%20quaternion%20product%20general.svg" alt="drawing" width="2000"/>
+
+### $qp$ feature extraction
+
+An statistical feature extraction is performed using the $\mu, \sigma$, and $\sigma^2$, according to the following criteria
+
+$$\sigma^2(\boldsymbol{q}) = {\frac{N}{N-1}} {\mathbb{E} \lbrace \left(\boldsymbol{q} - \mathbb{E}\lbrace\boldsymbol{q}\rbrace \right)^2 \rbrace },$$
+
+where $E\lbrace\boldsymbol{q}\rbrace$ is the expected value of $\boldsymbol{q}$, denoted by $\mu$. Statistical feature space is presented here.
+
+
 
 ## The $q \odot p$ bicomplex product signal behaviour
 
