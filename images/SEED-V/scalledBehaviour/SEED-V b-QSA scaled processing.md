@@ -1,4 +1,4 @@
-# EEG time and wavelet denoised behaviour
+# EEG scaled behaviour
 
 After the Wavelet Denoised (WD), we perform a scaling function to modify the magnitude of WD-EEG. The entry EEG signal is processed following a min-max criteria as:
 
