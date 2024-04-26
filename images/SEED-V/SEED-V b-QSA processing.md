@@ -76,14 +76,52 @@ According to above, each primary emotion yields a b-QSA time behaviour. We inclu
 
 An statistical feature extraction is performed using the $\mu, \sigma$, and $\sigma^2$, according to the following criteria
 
-$$\sigma^2(\boldsymbol{q}) = {\frac{N}{N-1}} {\mathbb{E} \lbrace \left(\boldsymbol{q} - \mathbb{E}\lbrace\boldsymbol{q}\rbrace \right)^2 \rbrace },$$
+$$\sigma^2(\boldsymbol{q}) = {\frac{N}{N-1}} {\mathbb{E} \lbrace \left(\boldsymbol{qp} - \mathbb{E}\lbrace\boldsymbol{qp}\rbrace \right)^2 \rbrace },$$
 
-where $E\lbrace\boldsymbol{q}\rbrace$ is the expected value of $\boldsymbol{q}$, denoted by $\mu$. Statistical feature space is presented here.
+where $E\lbrace\boldsymbol{q}\rbrace$ is the expected value of $\boldsymbol{q}$, denoted by $\mu$. Statistical feature space is presented here. Figures are downsampled to reduce file sizes.
 
+#### $\boldsymbol{\mathfrak{Re}}\lbrace qp\left(a,c\boldsymbol{i}\right)\rbrace$
 
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ1REAL.png-1.png" alt="drawing" width="2000"/>
+
+#### $\boldsymbol{\mathfrak{Im}}\lbrace qp\left(a,c\boldsymbol{i}\right)\rbrace$
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ1IMAG.png-1.png" alt="drawing" width="2000"/>
+
+#### $\boldsymbol{\mathfrak{Re}}\lbrace qp\left(b,d\boldsymbol{i}\right)\rbrace$
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ2REAL.png-1.png" alt="drawing" width="2000"/>
+
+#### $\boldsymbol{\mathfrak{Re}}\lbrace qp\left(b,d\boldsymbol{i}\right)\rbrace$
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ2IMAG.png-1.png" alt="drawing" width="2000"/>
 
 ## The $q \odot p$ bicomplex product signal behaviour
 
 Hence, bicomplex product shows a time-domain signal behaviour as
 
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/images/bicomplexProductSEEDVgeneral.svg" alt="drawing" width="2000"/>
+
+## $q \odot p$ feature extraction
+
+As in the quaternion product feature extraction, bicomplex product is performed by computing $\mu, \sigma$, and $\sigma^2$ with the 
+
+$$\sigma^2(\boldsymbol{q}) = {\frac{N}{N-1}} {\mathbb{E} \lbrace \left(\boldsymbol{q \odot p} - \mathbb{E}\lbrace\boldsymbol{q \odot p}\rbrace \right)^2 \rbrace },$$
+
+then, statistical feature space for bicomplex product is presented in the subsequent images.
+
+#### $\boldsymbol{\mathfrak{Re}}\lbrace q \odot p\left(a,c\boldsymbol{i}\right)\rbrace$
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ1REAL.png-1.png" alt="drawing" width="2000"/>
+
+#### $\boldsymbol{\mathfrak{Im}}\lbrace q \odot p\left(a,c\boldsymbol{i}\right)\rbrace$
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ1IMAG.png-1.png" alt="drawing" width="2000"/>
+
+#### $\boldsymbol{\mathfrak{Re}}\lbrace q \odot p\left(b,d\boldsymbol{i}\right)\rbrace$
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ2REAL.png-1.png" alt="drawing" width="2000"/>
+
+#### $\boldsymbol{\mathfrak{Im}}\lbrace q \odot p\left(b,d\boldsymbol{i}\right)\rbrace$
+
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ2IMAG.png-1.png" alt="drawing" width="2000"/>
