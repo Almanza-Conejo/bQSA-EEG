@@ -20,23 +20,4 @@
 
 # bQSA-EEG
 
-This GitHub repo includes several parts of our **Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis** framework tested in the SJTU Emotion EEG Dataset (SEED-V), Affect, Personality, and Mood Research on Individuals and Groups (AMIGOS), A Database for Emotion Analysis using Physiological Signals (DEAP), and Force, EEG, and Emotion Labelled (FEEL) datasets. The following table includes auxiliary links to figures such as EEG-raw time behaviour $\xi\left(t\right)$, EEG Wavelet Denoised (WD) $\xi_{\psi}\left(t\right)$, escalled-EEG $\xi_{\zeta}\left(t\right)$. Moreover, we included the Effective Channels (EC) selection, the b-QSA time behaviour for quaternion and bicomplex product, $qp$ and $q \odot p$, respectively. Finally, feature extraction space and classification performance are also included. 
-
-| Dataset  |  Representation  |
-| ------   |    -----------   |
-|  SEED-V  |  [EEG time-behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/SEED-V%20quaternion%20product%20signal%20processing.md) |
-|          |  [WD time-behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/SEED-V%20quaternion%20product%20signal%20processing.md) |
-|          |  [Escalled time-behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/SEED-V%20quaternion%20product%20signal%20processing.md) |
-|          |  [Effective channels](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/SEED-V%20quaternion%20product%20signal%20processing.md) |
-|          |  [Quaternion product time-behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/SEED-V%20quaternion%20product%20signal%20processing.md) |
-|          |  [Bicomplex product time-behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/SEED-V%20bicomplex%20product%20signal%20processing.md)   |
-|          |  [Quaternion product statistical feature space](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/SEED-V%20bicomplex%20product%20signal%20processing.md)   |
-|          |  [Bicomplex product statistical feature space](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/SEED-V%20bicomplex%20product%20signal%20processing.md)   |
-|          |  [Quaternion classification results](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/SEED-V%20bicomplex%20product%20signal%20processing.md)   |
-|          |  [Bicomplex classification results](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/SEED-V%20bicomplex%20product%20signal%20processing.md)   |
-|  AMIGOS  |  [Quaternion](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/quaternionProduct/AMIGOS%20quaternion%20product%20signal%20processing.md)  |
-|          |  [Bicomplex](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/bicomplexProduct/AMIGOS%20bicomplex%20product%20signal%20processing.md)   |
-|   DEAP   |  [Quaternion]()  |
-|          |  [Bicomplex]()   |
-|   FEEL   |  [Quaternion]()  |
-|          |  [Bicomplex]()   |
+This GitHub repo includes several parts of our **Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis** framework tested in the SJTU Emotion EEG Dataset ([SEED-V](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/SEED-V%20b-QSA%20processing.md)), Affect, Personality, and Mood Research on Individuals and Groups (AMIGOS), A Database for Emotion Analysis using Physiological Signals (DEAP), and Force, EEG, and Emotion Labelled (FEEL) datasets. The following table includes auxiliary links to figures such as EEG-raw time behaviour $\xi\left(t\right)$, EEG Wavelet Denoised (WD) $\xi_{\psi}\left(t\right)$, escalled-EEG $\xi_{\zeta}\left(t\right)$. Moreover, we included the Effective Channels (EC) selection, the b-QSA time behaviour for quaternion and bicomplex product, $qp$ and $q \odot p$, respectively. Finally, feature extraction space and classification performance are also included. 
