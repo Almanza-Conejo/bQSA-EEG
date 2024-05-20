@@ -16,22 +16,17 @@ For details, please go to our manuscript PDF.
 
 ## Escalled EEG
 
-One obtained the Wavelet Denoised EEG (WD-EEG) we perform a scalation function based on the following criteria:
+Same as in SEED-V escalled pattern, once obtained the Wavelet Denoised EEG (WD-EEG) we perform a scalation function based on the following criteria:
 
 $$\xi_\varsigma(t) = \xi_\psi(t) - \frac{\underset{}{\min}\left(\xi_\psi(t)\right)}{\underset{}{\max}\left(\xi_\psi(t)\right) - \underset{}{\min}\left(\xi_\psi(t)\right)},$$
 
 yielding the following scaled EEG time behaviour, represented as $\xi_{\zeta}\left(t\right)$.
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/SEED-V%20scaled%20general.svg" alt="drawing" width="2000"/>
-
-For high-resolution images, please visit our [SEED-V scaled behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/scalledBehaviour/SEED-V%20b-QSA%20scaled%20processing.md) section.
-For details, please go to our manuscript PDF.
-
 ## Effective channels
 
-The SEED-V dataset contains a sum of $\Xi_{s} \in \mathbb{R}^{44640 \times t}$ EEG signals, $\lbrace \Xi_{s_i} \in \mathbb{R}^{8928 \times t} \rbrace \in \Xi_{s}$ per emotion stimuli. Besides, using the [Minimum Redundance Maximum Relevance algorithm](https://doi.org/10.1142/S0219720005001004) we achieve a top four EEG Effective Channels (EC) subset based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971). As a result, the top four effective channels for SEED-V db are: *FP1*, *CP1*, *CZ*, and *CB2*. The normalized EC score is shown in the following figure.
+AMIGOS dataset contains a sum of $\Xi_{s} \in \mathbb{R}^{40960 \times t}$ EEG signals. Besides, using the [Minimum Redundance Maximum Relevance algorithm](https://doi.org/10.1142/S0219720005001004) we achieve a top four EEG Effective Channels (EC) subset based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971). As a result, the top four effective channels for AMIGOS db are: *AF3*, *P7*, *T8*, and *O1*. The normalized EC score is shown in the following figure.
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/effectiveChannels/ecSEED.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/effectiveChannels/ecAMIGOS.svg" alt="drawing" width="2000"/>
 
 ## The quaternion algebra
 Once these four effective channels are achieved, we perform a quaternion based on the *Cayley-Dickson* form, as presented in [Quaternion Fourier Transforms for Signal and Image Processing](10.1002/9781118930908). We take the premise that
@@ -71,7 +66,7 @@ $$\boldsymbol{q} \equiv
 ### $qp$ signal behaviour
 According to above, each primary emotion yields a b-QSA time behaviour. We include the time-domain figures here
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/quaternionPoduct/images/SEED-V%20quaternion%20product%20general.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/quaternionProduct/images/quaternionProductAMIGOSgeneral.svg" alt="drawing" width="2000"/>
 
 ### $qp$ feature extraction
 
@@ -101,7 +96,7 @@ where $E\lbrace\boldsymbol{q}\rbrace$ is the expected value of $\boldsymbol{q}$,
 
 Hence, bicomplex product shows a time-domain signal behaviour as
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/bicomplexProduct/images/bicomplexProductSEEDVgeneral.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/bicomplexProduct/images/bicomplexProductAMIGOSgeneral.svg" alt="drawing" width="2000"/>
 
 ## $q \odot p$ feature extraction
 
