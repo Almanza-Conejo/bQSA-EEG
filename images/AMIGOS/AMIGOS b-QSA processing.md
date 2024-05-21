@@ -78,19 +78,19 @@ where $E\lbrace\boldsymbol{q}\rbrace$ is the expected value of $\boldsymbol{q}$,
 
 #### $\boldsymbol{\mathfrak{Re}}\lbrace qp\left(a,c\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ1REAL.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_quaternionProduct_features_q1real.png" alt="drawing" width="2000"/>
 
 #### $\boldsymbol{\mathfrak{Im}}\lbrace qp\left(a,c\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ1IMAG.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_quaternionProduct_features_q1imag.png" alt="drawing" width="2000"/>
 
 #### $\boldsymbol{\mathfrak{Re}}\lbrace qp\left(b,d\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ2REAL.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_quaternionProduct_features_q2real.png" alt="drawing" width="2000"/>
 
-#### $\boldsymbol{\mathfrak{Re}}\lbrace qp\left(b,d\boldsymbol{i}\right)\rbrace$
+#### $\boldsymbol{\mathfrak{Im}}\lbrace qp\left(b,d\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_quaternionProduct_featuresQ2IMAG.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_quaternionProduct_features_q2imag.png" alt="drawing" width="2000"/>
 
 ## The $q \odot p$ bicomplex product signal behaviour
 
@@ -108,16 +108,16 @@ then, statistical feature space for bicomplex product is presented in the subseq
 
 #### $\boldsymbol{\mathfrak{Re}}\lbrace q \odot p\left(a,c\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ1REAL.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_bicomplexProduct_features_q1real.png-1.png" alt="drawing" width="2000"/>
 
 #### $\boldsymbol{\mathfrak{Im}}\lbrace q \odot p\left(a,c\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ1IMAG.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_bicomplexProduct_features_q1imag.png-1.png" alt="drawing" width="2000"/>
 
 #### $\boldsymbol{\mathfrak{Re}}\lbrace q \odot p\left(b,d\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ2REAL.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_bicomplexProduct_features_q2real.png-1.png" alt="drawing" width="2000"/>
 
 #### $\boldsymbol{\mathfrak{Im}}\lbrace q \odot p\left(b,d\boldsymbol{i}\right)\rbrace$
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/featureExtraction/SEEDV_AXIS_bicomplexProduct_featuresQ2IMAG.png-1.png" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/featureExtraction/AMIGOS_AXIS_bicomplexProduct_features_q2imag.png-1.png" alt="drawing" width="2000"/>
