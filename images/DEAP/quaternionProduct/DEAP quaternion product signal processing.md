@@ -2,16 +2,16 @@
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/DEAP/bicomplexProduct/images/DEAPbqsatimegeneral.svg" alt="drawing" width="2000"/>
 
 The b-QSA is an effective algorithm proposed for our **"Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis"** framerowk.
-This MD file is a short version of the AMIGOS b-QSA signal processing to present the missed figures in our paper-work.
+This MD file is a short version of the DEAP b-QSA signal processing to present missed figures in our paper-work.
 
 ## Time behaviour
 The DEAP is an emotion recognition EEG dataset to classify primitive emotions: Valence (V) and Arousal (A). Here, we propose a
 High- or Low-Valence (HV/LV) and High- or Low-Arousal (HA/LA) combination, making that targets up to a four-target space (HVHA, HVLA, LVHA, LVLA).
 Normalized EEG raw has a time-domain representation as follows.
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/timeBehaviour/AMIGOS%20time%20behaviour%20general.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/DEAP/timeBehaviour/DEAP%20quaternion%20product%20general.svg" alt="drawing" width="2000"/>
 
-For high-resolution images, please visit our [AMIGOS time behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/timeBehaviour/timeBehaviourEEG.md) section.
+For high-resolution images, please visit our [DEAP time behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/timeBehaviour/timeBehaviourEEG.md) section.
 For details, please go to our manuscript PDF.
 
 ## Escalled EEG
@@ -24,7 +24,7 @@ yielding the following scaled EEG time behaviour, represented as $\xi_{\zeta}\le
 
 ## Effective channels
 
-AMIGOS dataset contains a sum of $\Xi_{s} \in \mathbb{R}^{40960 \times t}$ EEG signals. Besides, using the [Minimum Redundance Maximum Relevance algorithm](https://doi.org/10.1142/S0219720005001004) we achieve a top four EEG Effective Channels (EC) subset based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971). As a result, the top four effective channels for AMIGOS db are: *AF3*, *P7*, *T8*, and *O1*. The normalized EC score is shown in the following figure.
+DEAP dataset contains a sum of $\Xi_{s} \in \mathbb{R}^{40960 \times t}$ EEG signals. Besides, using the [Minimum Redundance Maximum Relevance algorithm](https://doi.org/10.1142/S0219720005001004) we achieve a top four EEG Effective Channels (EC) subset based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971). As a result, the top four effective channels for DEAP db are: *AF3*, *P7*, *T8*, and *O1*. The normalized EC score is shown in the following figure.
 
 <img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/DEAP/effectiveChannels/ecDEAP.svg" alt="drawing" width="2000"/>
 
