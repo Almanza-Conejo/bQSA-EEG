@@ -63,7 +63,7 @@ $$\boldsymbol{q} \equiv
 ### $qp$ signal behaviour
 According to above, each primary emotion yields a b-QSA time behaviour. We include the time-domain figures here
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/quaternionPoduct/images/FEEL%20quaternion%20product%20general.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/quaternionProduct/FEEL%20quaternion%20product%20general.svg" alt="drawing" width="2000"/>
 
 ### $qp$ feature extraction
 
