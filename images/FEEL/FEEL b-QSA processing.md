@@ -93,7 +93,7 @@ where $E\lbrace\boldsymbol{q}\rbrace$ is the expected value of $\boldsymbol{q}$,
 
 Hence, bicomplex product shows a time-domain signal behaviour as
 
-<img src="" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/bicomplexProduct/FEEL%20bicomplex%20product%20general.svg" alt="drawing" width="2000"/>
 
 ## $q \odot p$ feature extraction
 
