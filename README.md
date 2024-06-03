@@ -20,7 +20,7 @@
 
 # bQSA-EEG
 
-This GitHub repo includes several parts of our **Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis** framework tested in the SJTU Emotion EEG Dataset ([SEED-V](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/SEED-V%20b-QSA%20processing.md)), Affect, Personality, and Mood Research on Individuals and Groups ([AMIGOS](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/AMIGOS%20b-QSA%20processing.md)), A Database for Emotion Analysis using Physiological Signals ([DEAP](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/DEAP/quaternionProduct/DEAP%20quaternion%20product%20signal%20processing.md)), and Force, EEG, and Emotion Labelled (FEEL) datasets. 
+This GitHub repo includes several parts of our **Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis** framework tested in the SJTU Emotion EEG Dataset ([SEED-V](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/SEED-V%20b-QSA%20processing.md)), Affect, Personality, and Mood Research on Individuals and Groups ([AMIGOS](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/AMIGOS%20b-QSA%20processing.md)), A Database for Emotion Analysis using Physiological Signals ([DEAP](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/DEAP/quaternionProduct/DEAP%20quaternion%20product%20signal%20processing.md)), and Force, EEG, and Emotion Labelled ([FEEL](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/FEEL%20b-QSA%20processing.md)) datasets. 
 b-QSA is based on a digital signal processing given a four-signals set to achieve a two complex vector following the
 
 $$\boldsymbol{q} \equiv
