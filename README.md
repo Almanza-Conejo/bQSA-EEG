@@ -20,4 +20,13 @@
 
 # bQSA-EEG
 
-This GitHub repo includes several parts of our **Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis** framework tested in the SJTU Emotion EEG Dataset ([SEED-V](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/SEED-V%20b-QSA%20processing.md)), Affect, Personality, and Mood Research on Individuals and Groups ([AMIGOS](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/AMIGOS%20b-QSA%20processing.md)), A Database for Emotion Analysis using Physiological Signals ([DEAP](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/DEAP/quaternionProduct/DEAP%20quaternion%20product%20signal%20processing.md)), and Force, EEG, and Emotion Labelled (FEEL) datasets. The following table includes auxiliary links to figures such as EEG-raw time behaviour $\xi\left(t\right)$, EEG Wavelet Denoised (WD) $\xi_{\psi}\left(t\right)$, escalled-EEG $\xi_{\zeta}\left(t\right)$. Moreover, we included the Effective Channels (EC) selection, the b-QSA time behaviour for quaternion and bicomplex product, $qp$ and $q \odot p$, respectively. Finally, feature extraction space and classification performance are also included. 
+This GitHub repo includes several parts of our **Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis** framework tested in the SJTU Emotion EEG Dataset ([SEED-V](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/SEED-V/SEED-V%20b-QSA%20processing.md)), Affect, Personality, and Mood Research on Individuals and Groups ([AMIGOS](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/AMIGOS/AMIGOS%20b-QSA%20processing.md)), A Database for Emotion Analysis using Physiological Signals ([DEAP](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/DEAP/quaternionProduct/DEAP%20quaternion%20product%20signal%20processing.md)), and Force, EEG, and Emotion Labelled (FEEL) datasets. 
+b-QSA is based on a digital signal processing given a four-signals set to achieve a two complex vector following the
+
+$$\boldsymbol{q} \equiv
+    \begin{cases}
+        q p &= \left( q_1p_1 - q_2^\ast p_2, q_2p_1 + q_1^\ast p_2 \right),  \\
+        q \odot p &= \left( q_1p_1 - q_2 p_2, q_2p_1 + q_1 p_2 \right) 
+    \end{cases}$$
+
+criteria. Here, we included auxiliary figures such as EEG-raw time behaviour $\xi\left(t\right)$, EEG Wavelet Denoised (WD) $\xi_{\psi}\left(t\right)$, escalled-EEG $\xi_{\zeta}\left(t\right)$. Moreover, we included the Effective Channels (EC) selection, the b-QSA time behaviour for quaternion and bicomplex product, $qp$ and $q \odot p$, respectively. Finally, feature extraction space and classification performance are also included. 
