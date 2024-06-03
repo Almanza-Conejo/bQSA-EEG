@@ -1,5 +1,5 @@
 # FEEL b-QSA
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/bicomplexProduct/images/bicomplexProductSEEDVgeneral.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/timeBehaviour/FEEL%20time%20general.svg" alt="drawing" width="2000"/>
 
 The b-QSA is an effective algorithm proposed for our **"Feature Signal Processing for Emotion Recognition Based on Bi-Complex Quaternion Signal Analysis"** framerowk.
 This MD file is a short version of the FEEL b-QSA signal processing to present the missed figures in our paper-work.
@@ -8,7 +8,7 @@ This MD file is a short version of the FEEL b-QSA signal processing to present t
 The FEEL is an emotion recognition EEG dataset to classify five primary emotions: happy, disgust, neutral, fear, and sad.
 Normalized EEG raw has a time-domain representation as follows.
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/timeBehaviour/images/FEEL%20time%20general.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/timeBehaviour/FEEL%20time%20general.svg" alt="drawing" width="2000"/>
 
 For high-resolution images, please visit our [FEEL time behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/timeBehaviour/timeBehaviourEEG.md) section.
 For details, please go to our manuscript PDF.
@@ -17,20 +17,13 @@ For details, please go to our manuscript PDF.
 
 One obtained the Wavelet Denoised EEG (WD-EEG) we perform a scalation function based on the following criteria:
 
-$$\xi_\varsigma(t) = \xi_\psi(t) - \frac{\underset{}{\min}\left(\xi_\psi(t)\right)}{\underset{}{\max}\left(\xi_\psi(t)\right) - \underset{}{\min}\left(\xi_\psi(t)\right)},$$
-
-yielding the following scaled EEG time behaviour, represented as $\xi_{\zeta}\left(t\right)$.
-
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/scalledBehaviour/FEEL%20scaled%20general.svg" alt="drawing" width="2000"/>
-
-For high-resolution images, please visit our [FEEL scaled behaviour](https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/scalledBehaviour/FEEL%20b-QSA%20scaled%20processing.md) section.
-For details, please go to our manuscript PDF.
+$$\xi_\varsigma(t) = \xi_\psi(t) - \frac{\underset{}{\min}\left(\xi_\psi(t)\right)}{\underset{}{\max}\left(\xi_\psi(t)\right) - \underset{}{\min}\left(\xi_\psi(t)\right)},$$ yielding the following scaled EEG time behaviour, represented as $\xi_{\zeta}\left(t\right)$. Same as in SEED-V db.
 
 ## Effective channels
 
 The FEEL dataset contains a sum of $\Xi_{s} \in \mathbb{R}^{44640 \times t}$ EEG signals, $\lbrace \Xi_{s_i} \in \mathbb{R}^{8928 \times t} \rbrace \in \Xi_{s}$ per emotion stimuli. Besides, using the [Minimum Redundance Maximum Relevance algorithm](https://doi.org/10.1142/S0219720005001004) we achieve a top four EEG Effective Channels (EC) subset based on our previous work, [**A channel selection method to find the role of the amygdala in emotion recognition avoiding conflict learning in EEG signals**](https://doi.org/10.1016/j.engappai.2023.106971). As a result, the top four effective channels for FEEL db are: *FP1*, *CP1*, *CZ*, and *CB2*. The normalized EC score is shown in the following figure.
 
-<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/effectiveChannels/ecSEED.svg" alt="drawing" width="2000"/>
+<img src="https://github.com/Almanza-Conejo/bQSA-EEG/blob/main/images/FEEL/effectiveChannels/ecFEEL.svg" alt="drawing" width="2000"/>
 
 ## The quaternion algebra
 Once these four effective channels are achieved, we perform a quaternion based on the *Cayley-Dickson* form, as presented in [Quaternion Fourier Transforms for Signal and Image Processing](10.1002/9781118930908). We take the premise that
